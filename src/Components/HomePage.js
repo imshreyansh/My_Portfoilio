@@ -25,9 +25,9 @@ class HomePage extends Component {
                         <span className='detailsText'>Do not wait; the time will never be 'just right.' Start where you stand, and work with whatever tools you may have at your command, and better tools will be found as you go along.</span>
                     </div>
                     <div className='ico'>
-                        <img className='myImg' src={todo} alt="" />
-                        <img className='myImg' src={me} alt="" />
-                        <img className='myImg' src={peeps} alt="" />
+                        <img className='myImgOne' src={todo} alt="" />
+                        <img className='myImgOne' src={me} alt="" />
+                        <img className='myImgOne' src={peeps} alt="" />
                     </div>
 
                 </div>
