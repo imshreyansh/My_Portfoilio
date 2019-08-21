@@ -1,0 +1,22 @@
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    background-color: white;
+    width: 800px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+
+}
+.img{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+.myImg{
+    height:150px;
+   border-radius: 200px;
+}
