@@ -4,6 +4,7 @@ import img from './icons/img.jpg'
 import todo from './icons/todo.png'
 import me from './icons/me.png'
 import peeps from './icons/peeps.png'
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 class HomePage extends Component {
     render() {
         return (
@@ -26,15 +27,16 @@ class HomePage extends Component {
                     </div>
                     <div className='ico'>
                         <div className='spec'>
-                            <img className='myImgOne' src={todo} alt="" />
+                            <Link to='/projects'> <img className='myImgOne' src={todo} alt="" /></Link>
                             <span className='di'>Projects</span>
                         </div>
                         <div className='spec'>
-                            <img className='myImgOne' src={me} alt="" />
+                            <Link to='/me'><img className='myImgOne' src={me} alt="" />
+                            </Link>
                             <span className='di'>About Me !</span>
                         </div>
                         <div className='spec'>
-                            <img className='myImgOne' src={peeps} alt="" />
+                            <Link to='/collection'> <img className='myImgOne' src={peeps} alt="" /></Link>
                             <span className='di'>Collections</span>
                         </div>
                     </div>
