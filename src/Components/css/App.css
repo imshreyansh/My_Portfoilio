@@ -1,5 +1,5 @@
 body,html{
-    background-image: url(./bg.jpg);
+    background-image: url(../backgrounds/bg.jpg);
   
     /* Full height */
     height: 100%; 
@@ -16,8 +16,8 @@ body,html{
 }
 
 @keyframes blur{
-    from{ background-image: url(./bg.jpg);}
-    to{ background-image: url(./bgTwo.jpg);}
+    from{ background-image: url(../backgrounds/bg.jpg);}
+    to{ background-image: url(../backgrounds/bgTwo.jpg);}
 }
 
 .both{
@@ -27,7 +27,7 @@ body,html{
   
 }
 
-.log{
+.logo{
     display: flex;
     justify-content: flex-start;
 }
@@ -41,6 +41,15 @@ body,html{
 .contact{
     display: flex;
     justify-content: flex-end;
+}
+.hous{
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+.house{
+    height:80px;
 }
 @media only screen and (max-width: 7000px){
 .fb{
@@ -70,11 +79,36 @@ body,html{
         height:20px;
         padding-right: 20px;
     }
+    .hous{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        
+    }
+    .house{
+        height:40px;
+
+    }
     }
 
     @media only screen and (max-width: 768px){
         .logoImg{
             height:80px;
             margin-left: 30px;
+        }
+    }
+
+    @media only screen and (max-width: 1072px){
+        .hous{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+            padding-bottom:10px;
+        }
+        .house{
+            height:60px;
+    
         }
     }

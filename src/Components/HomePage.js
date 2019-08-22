@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import './HomePage.css'
-import img from './img.jpg'
-import todo from './todo.png'
-import me from './me.png'
-import peeps from './peeps.png'
+import './css/HomePage.css'
+import img from './icons/img.jpg'
+import todo from './icons/todo.png'
+import me from './icons/me.png'
+import peeps from './icons/peeps.png'
 class HomePage extends Component {
     render() {
         return (
