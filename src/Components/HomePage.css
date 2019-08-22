@@ -1,9 +1,9 @@
 .main{
     display: flex;
     justify-content: center;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
-@media only screen and (max-width: 1500px){
+@media only screen and (max-width:7000px){
 .box{
     background-color: white;
     width: 800px;
@@ -22,8 +22,8 @@
    border-radius:100%;
 }
 .myImgOne{
-    height:150px;
-   border-radius:100%;
+    height:120px;
+   border-radius:30%;
 }
 .nameHead{
     display: flex;
@@ -34,7 +34,7 @@
     font-size: 20px;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
-    color:#2196f3;
+    color:#333 ;
 }
 
 .nameHeadTwo{
@@ -47,14 +47,14 @@
         font-size: 18px;
         font-weight: bold;
         font-family: 'Times New Roman', Times, serif;
-        color:#2196f3;
+        color:#333;
 }
 
 .motivation{
     font-size: 15px;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
-    color:#bdbdbd;
+    color:#333;
 }
 
 .details{
@@ -67,7 +67,7 @@
     font-size: 15px;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
-    color:#bdbdbd;
+    color:#333;
 }
 
 .ico{
@@ -76,6 +76,18 @@
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 20px;
+}
+.spec{
+    display: flex;
+    flex-direction: column;
+}
+.di{
+    text-align: center;
+    padding-top: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color:#333;
 }
 }
 @media only screen and (max-width: 1072px){
@@ -97,8 +109,8 @@
        border-radius:100%;
     }
     .myImgOne{
-        height:150px;
-       border-radius:100%;
+        height:120px;
+        border-radius:30%;
     }
     .nameHead{
         display: flex;
@@ -109,7 +121,7 @@
         font-size: 20px;
         font-weight: bold;
         font-family: 'Times New Roman', Times, serif;
-        color:#2196f3;
+        color:#333;
     }
     
     .nameHeadTwo{
@@ -122,14 +134,14 @@
             font-size: 18px;
             font-weight: bold;
             font-family: 'Times New Roman', Times, serif;
-            color:#2196f3;
+            color:#333;
     }
     
     .motivation{
         font-size: 15px;
         font-weight: bold;
         font-family: 'Times New Roman', Times, serif;
-        color:#bdbdbd;
+        color:#333;
     }
     
     .details{
@@ -142,7 +154,7 @@
         font-size: 15px;
         font-weight: bold;
         font-family: 'Times New Roman', Times, serif;
-        color:#bdbdbd;
+        color:#333;
     }
     
     .ico{
@@ -151,6 +163,18 @@
         margin-left: 10px;
         margin-right: 10px;
         margin-top: 20px;
+    }
+    .spec{
+        display: flex;
+        flex-direction: column;
+    }
+    .di{
+        text-align: center;
+        padding-top: 5px;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        color:#333;
     }
     }
 
@@ -174,7 +198,7 @@
         }
         .myImgOne{
             height:80px;
-           border-radius:100%;
+           border-radius:30%;
            width:80px;
         }
         .nameHead{
@@ -186,7 +210,7 @@
             font-size: 15px;
             font-weight: bold;
             font-family: 'Times New Roman', Times, serif;
-            color:#2196f3;
+            color:#333;
         }
         .nameHeadTwo{
             display: flex;
@@ -198,13 +222,13 @@
                 font-size: 12px;
                 font-weight: bold;
                 font-family: 'Times New Roman', Times, serif;
-                color:#2196f3;
+                color:#333;
         }
         .motivation{
             font-size: 11px;
             font-weight: bold;
             font-family: 'Times New Roman', Times, serif;
-            color:#bdbdbd;
+            color:#333;
         }
         
         .details{
@@ -217,7 +241,7 @@
             font-size: 11px;
             font-weight: bold;
             font-family: 'Times New Roman', Times, serif;
-            color:#bdbdbd;
+            color:#333;
         }
         
         .ico{
@@ -226,6 +250,18 @@
             margin-left: 10px;
             margin-right: 10px;
             margin-top: 20px;
+        }
+        .spec{
+            display: flex;
+            flex-direction: column;
+        }
+        .di{
+            text-align: center;
+            padding-top: 5px;
+            font-size: 12px;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            color:#333;
         }
         }
     

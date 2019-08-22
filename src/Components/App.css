@@ -6,13 +6,75 @@ body,html{
   
     /* Center and scale the image nicely */
     background-position: center;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
+    animation-name: blur;
+    animation-duration: 8s;
     
 }
 
+@keyframes blur{
+    from{ background-image: url(./bg.jpg);}
+    to{ background-image: url(./bgTwo.jpg);}
+}
+
+.both{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  
+}
+
+.log{
+    display: flex;
+    justify-content: flex-start;
+}
+@media only screen and (max-width: 7000px){
 .logoImg{
     height:120px;
     margin-left: 30px;
 }
+}
+
+.contact{
+    display: flex;
+    justify-content: flex-end;
+}
+@media only screen and (max-width: 7000px){
+.fb{
+    height:40px;
+    padding-right: 20px;
+}
+.ln{
+    height:40px;
+    padding-right: 20px;
+}
+.in{
+    height:40px;
+    padding-right: 20px;
+}
+}
+
+@media only screen and (max-width: 768px){
+    .fb{
+        height:20px;
+        padding-right: 20px;
+    }
+    .ln{
+        height:20px;
+        padding-right: 20px;
+    }
+    .in{
+        height:20px;
+        padding-right: 20px;
+    }
+    }
+
+    @media only screen and (max-width: 768px){
+        .logoImg{
+            height:80px;
+            margin-left: 30px;
+        }
+    }
