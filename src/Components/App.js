@@ -31,12 +31,12 @@ class App extends Component {
         </div>
         <Router>
           <Route path='/todo' component={Todo} />
-          <Route path='/' exact component={HomePage} />
-          <Route path='/me' exact component={About} />
-          <Route path='/collection' exact component={Collection} />
-          <Route path='/projects' exact component={Projects} />
+          <Route path='/My_Portfolio' exact component={HomePage} />
+          <Route path='/My_Portfolio/me' exact component={About} />
+          <Route path='/My_Portfolio/collection' exact component={Collection} />
+          <Route path='/My_Portfolio/projects' exact component={Projects} />
           <div className='hous'>
-            <Link to='/'> <img className='house' src={house} alt="" /></Link>
+            <Link to='/My_Portfolio'> <img className='house' src={house} alt="" /></Link>
           </div>
         </Router>
 
