@@ -5,7 +5,7 @@
 }
 @media only screen and (max-width:7000px){
 .box{
-    background-color: white;
+    background-color: #dddddd;
     width: 800px;
     border-radius: 10px;
     padding-bottom: 20px;
@@ -21,10 +21,21 @@
     height:150px;
    border-radius:100%;
 }
+
+.newCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.cards{
+    margin-top: 20px;
+}
 }
 @media only screen and (max-width: 1072px){
     .box{
-        background-color: white;
+        background-color:  #dddddd;
         width: 700px;
         border-radius: 10px;
         padding-bottom: 20px;
@@ -40,12 +51,22 @@
         height:150px;
        border-radius:100%;
     }
+    .newCards{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 20px;
+    }
+    .cards{
+        margin-top: 20px;
+    }
 
     }
 
     @media only screen and (max-width: 768px){
         .box{
-            background-color: white;
+            background-color:  #dddddd;
             width: 300px;
             border-radius: 10px;
             padding-bottom: 20px;
