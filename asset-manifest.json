@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/My_Portfolio/static/css/main.edb69008.chunk.css",
-    "main.js": "/My_Portfolio/static/js/main.9d833760.chunk.js",
-    "main.js.map": "/My_Portfolio/static/js/main.9d833760.chunk.js.map",
+    "main.css": "/My_Portfolio/static/css/main.eaf54a69.chunk.css",
+    "main.js": "/My_Portfolio/static/js/main.269fdd9a.chunk.js",
+    "main.js.map": "/My_Portfolio/static/js/main.269fdd9a.chunk.js.map",
     "runtime~main.js": "/My_Portfolio/static/js/runtime~main.0406a893.js",
     "runtime~main.js.map": "/My_Portfolio/static/js/runtime~main.0406a893.js.map",
-    "static/js/2.acb14d8f.chunk.js": "/My_Portfolio/static/js/2.acb14d8f.chunk.js",
-    "static/js/2.acb14d8f.chunk.js.map": "/My_Portfolio/static/js/2.acb14d8f.chunk.js.map",
+    "static/js/2.84359aeb.chunk.js": "/My_Portfolio/static/js/2.84359aeb.chunk.js",
+    "static/js/2.84359aeb.chunk.js.map": "/My_Portfolio/static/js/2.84359aeb.chunk.js.map",
     "index.html": "/My_Portfolio/index.html",
-    "precache-manifest.0aebd1a04d1e9a0be714a08ec96f78c7.js": "/My_Portfolio/precache-manifest.0aebd1a04d1e9a0be714a08ec96f78c7.js",
+    "precache-manifest.7d81e1b84d242bc7a744bd89b13470d4.js": "/My_Portfolio/precache-manifest.7d81e1b84d242bc7a744bd89b13470d4.js",
     "service-worker.js": "/My_Portfolio/service-worker.js",
-    "static/css/main.edb69008.chunk.css.map": "/My_Portfolio/static/css/main.edb69008.chunk.css.map",
+    "static/css/main.eaf54a69.chunk.css.map": "/My_Portfolio/static/css/main.eaf54a69.chunk.css.map",
     "static/media/App.css": "/My_Portfolio/static/media/bgTwo.9df84ad3.jpg",
+    "static/media/contact.png": "/My_Portfolio/static/media/contact.8ae0990e.png",
+    "static/media/fc.png": "/My_Portfolio/static/media/fc.e231237b.png",
     "static/media/house.png": "/My_Portfolio/static/media/house.a384e2d9.png",
     "static/media/img.jpg": "/My_Portfolio/static/media/img.a864228d.jpg",
     "static/media/instagram.png": "/My_Portfolio/static/media/instagram.4a8c2347.png",
     "static/media/logo.png": "/My_Portfolio/static/media/logo.7c376bf0.png",
     "static/media/me.png": "/My_Portfolio/static/media/me.d3a2f532.png",
     "static/media/peeps.png": "/My_Portfolio/static/media/peeps.15f93ade.png",
-    "static/media/todo.png": "/My_Portfolio/static/media/todo.dac08c46.png"
+    "static/media/reads.png": "/My_Portfolio/static/media/reads.b6adaa05.png",
+    "static/media/skool.png": "/My_Portfolio/static/media/skool.5e492fff.png",
+    "static/media/todo.png": "/My_Portfolio/static/media/todo.dac08c46.png",
+    "static/media/wyr.png": "/My_Portfolio/static/media/wyr.fc1010cf.png"
   }
 }

@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "91dac7a5274b068deba3a2d3849a206c",
+    "revision": "6af5af917b6fb1900c5fe3ab5ab54b45",
     "url": "/My_Portfolio/index.html"
   },
   {
-    "revision": "6e608aa2d3862e6781f3",
-    "url": "/My_Portfolio/static/css/main.edb69008.chunk.css"
+    "revision": "7b0551343baa36ac0906",
+    "url": "/My_Portfolio/static/css/main.eaf54a69.chunk.css"
   },
   {
-    "revision": "3da17d12fbc508edcb60",
-    "url": "/My_Portfolio/static/js/2.acb14d8f.chunk.js"
+    "revision": "1219eead66a64bb769e4",
+    "url": "/My_Portfolio/static/js/2.84359aeb.chunk.js"
   },
   {
-    "revision": "6e608aa2d3862e6781f3",
-    "url": "/My_Portfolio/static/js/main.9d833760.chunk.js"
+    "revision": "7b0551343baa36ac0906",
+    "url": "/My_Portfolio/static/js/main.269fdd9a.chunk.js"
   },
   {
     "revision": "82fe216a321529713cbb",
@@ -26,6 +26,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9df84ad34caad422c4ba20b169c0a02d",
     "url": "/My_Portfolio/static/media/bgTwo.9df84ad3.jpg"
+  },
+  {
+    "revision": "8ae0990e9706bdc1b02563db1da7f1e4",
+    "url": "/My_Portfolio/static/media/contact.8ae0990e.png"
+  },
+  {
+    "revision": "e231237b4b5f0488b2f331615a461fcd",
+    "url": "/My_Portfolio/static/media/fc.e231237b.png"
   },
   {
     "revision": "a384e2d9a4a3cb45b391740c443f9d73",
@@ -52,7 +60,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/My_Portfolio/static/media/peeps.15f93ade.png"
   },
   {
+    "revision": "b6adaa05c723bcd7d1ecc361592eac42",
+    "url": "/My_Portfolio/static/media/reads.b6adaa05.png"
+  },
+  {
+    "revision": "5e492fffff55753ca41af2943f7b4022",
+    "url": "/My_Portfolio/static/media/skool.5e492fff.png"
+  },
+  {
     "revision": "dac08c46c06f62bbe1332839ab6d36d5",
     "url": "/My_Portfolio/static/media/todo.dac08c46.png"
+  },
+  {
+    "revision": "fc1010cff838be81c22cf30c943af538",
+    "url": "/My_Portfolio/static/media/wyr.fc1010cf.png"
   }
 ]);
